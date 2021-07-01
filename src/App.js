@@ -3,9 +3,9 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import GetUserArtists from "./components/getUserArtists";
 
-const client_id = ""; // YOUR APP CLIENT ID
+const client_id = "79bc1956ebba42ca9a2cf2e4fa2dc537"; // YOUR APP CLIENT ID
 const spotify_base_endpoint = `https://accounts.spotify.com/authorize`;
-const redirect_uri = ""; //YOUR REDIRECT_URL
+const redirect_uri = "http://localhost:3000"; //YOUR REDIRECT_URL
 const scope = "user-top-read";
 
 const getUserInfo = (hash) => {
